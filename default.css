@@ -710,7 +710,7 @@ p {
 /* End Key Frames */
 
 /* Media Query Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 834px) {
   /* Might have to change min width*/
   .cta {
     font-size: 2.5rem;
