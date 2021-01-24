@@ -468,6 +468,7 @@ p {
   font-weight: 500;
   color: #3498db;
   margin: 0px auto;
+  text-align: center;
 }
 
 #projects .project-info h2 {
