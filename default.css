@@ -77,6 +77,11 @@ p {
   text-transform: uppercase;
   color: white;
   text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.brand h1 span {
+  color: #3498db;
 }
 
 /* Header */
@@ -111,7 +116,7 @@ p {
   position: absolute;
   background-color: rgb(31, 30, 30);
   width: 100vw;
-  height: 160vw;
+  height: 170vw;
   left: 100%;
   top: 0;
   display: flex;
@@ -161,7 +166,7 @@ p {
 }
 
 #header .hamburger {
-  height: 60px;
+  height: 70px;
   width: 60px;
   display: inline-block;
   border: 3px solid white;
@@ -273,6 +278,10 @@ p {
   animation-delay: 1s;
 }
 
+#hero img {
+  display: none;
+}
+
 #hero h1:nth-child(1) {
   animation-delay: 1s;
 }
@@ -307,6 +316,10 @@ p {
   background-color: #3498db;
   animation: text_reveal_box 1s ease;
   animation-delay: 0.3s;
+}
+
+#hero img {
+  display: none;
 }
 
 /* End Hero */
@@ -712,6 +725,16 @@ p {
   #hero h1 {
     font-size: 7rem;
   }
+
+  #hero img {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 18%;
+    left: 55%;
+    display: initial;
+  }
+
   /* End Hero */
 
   /* Skills */
@@ -788,7 +811,6 @@ p {
     display: flex;
     flex-direction: row;
     margin: 0;
-    padding: 20px;
   }
 
   #contact .contact-item {
@@ -840,6 +862,18 @@ p {
     display: none;
   }
   /* End Header */
+
+  /* Hero */
+
+  #hero img {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 18%;
+    left: 55%;
+  }
+
+  /* End Hero */
 }
 
 /* End Desktop */
