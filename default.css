@@ -12,6 +12,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -178,7 +183,7 @@ p {
   z-index: 100;
   cursor: pointer;
   transform: scale(0.8);
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
 #header .hamburger::after {
@@ -587,7 +592,7 @@ p {
 
 #contact .contact-item {
   width: 80%;
-  /* padding: 20px; */
+  padding: 20px;
   text-align: center;
   border-radius: 10px;
   padding: 30px;
