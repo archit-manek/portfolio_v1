@@ -479,7 +479,7 @@ p {
 #projects .project-info h2 {
   font-size: 1.8rem;
   font-weight: 500;
-  margin: 10px auto;
+  margin: 20px auto 0px;
 }
 
 #projects .project-info p {
