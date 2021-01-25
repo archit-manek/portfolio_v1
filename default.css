@@ -116,7 +116,7 @@ p {
   position: absolute;
   background-color: rgb(31, 30, 30);
   width: 100vw;
-  height: 170vw;
+  height: 100vh;
   left: 100%;
   top: 0;
   display: flex;
@@ -167,7 +167,7 @@ p {
 
 #header .hamburger {
   height: 70px;
-  width: 60px;
+  width: 70px;
   display: inline-block;
   border: 3px solid white;
   border-radius: 50%;
@@ -735,8 +735,8 @@ p {
 
   /* Skills */
   #skills .skills-bottom .skills-item {
-    flex-basis: 25%;
-    margin: 2.5%;
+    flex-basis: 35%;
+    margin: 5.5%;
   }
   /* End Skills */
 
