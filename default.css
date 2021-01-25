@@ -183,7 +183,7 @@ p {
   z-index: 100;
   cursor: pointer;
   transform: scale(0.8);
-  margin-right: -30px;
+  margin-right: -17px;
 }
 
 #header .hamburger::after {
