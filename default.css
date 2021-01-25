@@ -885,6 +885,14 @@ p {
   }
 
   /* End Hero */
+
+  /* Contact */
+
+  #contact .contact-info {
+    padding-left: 25px;
+  }
+
+  /* End Contact */
 }
 
 /* End Desktop */
