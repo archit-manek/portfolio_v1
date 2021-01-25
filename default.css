@@ -178,7 +178,7 @@ p {
   z-index: 100;
   cursor: pointer;
   transform: scale(0.8);
-  margin-right: 5px;
+  margin-right: 20px;
 }
 
 #header .hamburger::after {
