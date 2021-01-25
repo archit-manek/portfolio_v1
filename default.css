@@ -727,15 +727,6 @@ p {
     font-size: 7rem;
   }
 
-  #hero img {
-    height: 500px;
-    width: 500px;
-    position: absolute;
-    top: 18%;
-    left: 55%;
-    display: initial;
-  }
-
   /* End Hero */
 
   /* Skills */
